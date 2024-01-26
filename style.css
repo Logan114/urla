@@ -1,10 +1,17 @@
 body {
+    margin-left: 500px;
+    margin-right: 500px;
     background-color: purple;
     color: white;
 }
 input {
-    margin: 5px;
+    padding: 10px;
+    margin: 15px;
     background-color: gray;
     width: 200px;
+
+}
+#Crab {
+    width: 14%;
 
 }
