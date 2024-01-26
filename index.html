@@ -9,17 +9,19 @@
 <body>
     <h1>Autók</h1>
     <form action="#" method="get">
-        <label for="k_marka">írjá be valamit</label>
-        <input type="text" name="" value="Cadillac" id="k_marka">
-        <br>
-        <label for="tipus">Milyen tipus?</label>
-        <input type="text" name="tipus" id="tipus"value="Eldorado convertible" id="tipus"><br>
-        <label for="evjarat"></label>
-        <input type="range" name="" id="evjarat" min="1804" max="2024" oninput="this.form.evjarat_szam.value = this.value">
-        <input type="number" name="evjarat_szam" oninput="this.form.evjarat.value = this.value">
-        <br>
-        <input type="submit" value="🦀">
-
+        <fieldset>
+            <legend>Ótó adataji</legend>
+            <label for="k_marka">írjá be valamit</label>
+            <input type="text" name="" value="Cadillac" id="k_marka">
+            <br>
+            <label for="tipus">Milyen tipus?</label>
+            <input type="text" name="tipus" id="tipus"value="Eldorado convertible" id="tipus"><br>
+            <label for="evjarat"></label>
+            <input type="range" name="" id="evjarat" min="1804" max="2024" oninput="this.form.evjarat_szam.value = this.value">
+            <input type="number" name="evjarat_szam" oninput="this.form.evjarat.value = this.value">
+            <br>
+            <input type="submit" value="🦀">
+    </fieldset>
 
     </form>
 </body>
